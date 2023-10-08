@@ -105,6 +105,8 @@
   #include "Processors/TFT_eSPI_STM32.h"
 #elif defined(ARDUINO_ARCH_RP2040)
   #include "Processors/TFT_eSPI_RP2040.h"
+#elif defined(ARCH_NATIVE)
+  #include "Processors/TFT_eSPI_Native.h"
 #else
   #include "Processors/TFT_eSPI_Generic.h"
   #define GENERIC_PROCESSOR

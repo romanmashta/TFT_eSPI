@@ -1,3 +1,4 @@
+#include "Sprite.h"
 /**************************************************************************************
 // The following class creates Sprites in RAM, graphics can then be drawn in the Sprite
 // and rendered quickly onto the TFT screen. The class inherits the graphics functions
