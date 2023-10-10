@@ -4,6 +4,7 @@
 #define USER_SETUP_INFO "WASM_NATIVE"
 
 #define min(a,b) std::min(a,b)
+#define yield() {}
 
 #define ARCH_NATIVE
 
